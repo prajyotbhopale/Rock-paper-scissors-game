@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 body {
 font-family: Arial, sans-serif;
 background: #ffeaea;
@@ -13,6 +14,13 @@ height: 100vh;
 margin: 0;
 }
 
+p{
+  margin: 6px;
+}
+
+input{
+    min-width: 240px;
+}
 
 .container {
 background: #fff;
@@ -78,7 +86,7 @@ form input{
     padding: 6px;
     border-radius: 6px;
     border: 1px solid lightgrey;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     background: #fff;
     cursor: pointer;
 }
@@ -119,3 +127,7 @@ button:hover {
     background: #e05555;        /* darker red on hover */
     transform: scale(1.03);     /* slight zoom effect */
 }
+ /* select{
+    size: 5;
+    margin-bottom: 100px;
+ } */
